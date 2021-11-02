@@ -1,0 +1,63 @@
+* {
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    margin:0; 
+	padding:0;
+}
+
+.header {
+    background-color:red
+}
+
+.body {
+    display: flex;
+    flex-direction:column;
+}
+
+.navbar {
+    background-color: white;
+    color: black;
+}
+
+/* LOGO RS */
+.logo_header {
+    margin-right: 80%;
+    margin-bottom: -7%;
+}
+
+.main_page {
+    color: white;
+    background-color: #f46c63
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 21.5px;
+}
+
+/* VOI */
+.logo_voi img {
+    width: 100px;
+    box-shadow: 3px 2px 2px;
+}
+
+.detail_voi {
+    font-size: 30px;
+}
+
+/* footer */
+.footer_page {
+    background-color: #585858;
+
+}
+
+.footer_text {
+    color: #C6C6C6;
+    margin-bottom: 70%;

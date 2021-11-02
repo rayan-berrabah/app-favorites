@@ -1,0 +1,67 @@
+* {
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    color: black;
+    background-color:white;
+}
+
+.body {
+    display: flex;
+    flex-direction:column;
+}
+
+.logo_header {
+    margin-right: 80%;
+    margin-bottom: -7%;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 21.5;
+}
+
+/* VOI */
+.logo_voi img {
+    width: 100px;
+}
+
+.detail_voi {
+    font-size: 30px;
+}
+
+/* Apple Music */
+.logo_applemusic img {
+    width: 100px;
+}
+
+.detail_applemusic {
+    font-size: 30px;
+}
+
+.img_app2 img {
+    -webkit-animation: spin 10S infinite linear;
+}
+
+.logo_rtm img {
+    width: 100px;
+    box-shadow:5px 5px 400px 5px black;  
+}
+
+.img_app3 img {
+    width: 800px;
+}
+
+@-webkit-keyframes spin {
+	0%  {-webkit-transform: rotate(0deg);}
+	25% {-webkit-transform: rotate(2deg);}	
+    75% {-webkit-transform: rotate(-2deg);}	
+    100% {-webkit-transform: rotate(0deg);}	
+
+}
